@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnimeReader</string>
+
+    <!--Actividades-->
+    <string name="title_activity_home">Principal</string>
+    <string name="lblLoad">Cargando</string>
+    <string name="search_hint_me">Buscar...</string>
+</resources>
