@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="es" />
+        <option name="targetHashString" value="android-16" />
+        <option name="theme" value="Theme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
@@ -12,12 +24,70 @@
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Salida" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2313540c-3770-4565-83fa-c03a5625a617" name="Default" comment="" />
     <ignored path="AnimeReader.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../../file/src/Main.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374547421402" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/gen/com/black4ninja/MangaReaderUpdater/BuildConfig.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374291464428" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/gen/com/black4ninja/MangaReaderUpdater/R.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374291464428" ignored="false" />
+    <file path="/Main.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374548813560" ignored="false" />
+    <file path="/main.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374473549228" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/build.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374289611486" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/res/layout/main.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374460851695" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/src/com/black4ninja/MangaReaderUpdater/Main.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374548863827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/AndroidManifest.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374291448464" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/res/values/strings.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374289610863" ignored="false" />
+    <file path="/fragment.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374444647797" ignored="false" />
+    <file path="$PROJECT_DIR$/../../file/src/Manga.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374448848349" ignored="false" />
+    <file path="/Manga.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374448847022" ignored="false" />
+    <file path="/Index.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374552211114" ignored="false" />
+    <file path="/Dummy.txt" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555105975" ignored="false" />
+    <file path="/SplashScreen.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374467992495" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556111513" ignored="false" />
+    <file path="/strings.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374468094619" ignored="false" />
+    <file path="/index_row.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374473983340" ignored="false" />
+    <file path="/IndexAdapter.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556425680" ignored="false" />
+    <file path="/themes.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374469741056" ignored="false" />
+    <file path="/index_list.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374472296993" ignored="false" />
+    <file path="$PROJECT_DIR$/../../MangaReaderUpdater/assets/mFile.txt" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374546894761" ignored="false" />
+    <file path="/IndexAdapterExtra.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556616604" ignored="false" />
+    <file path="/index_list_extra.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374551871053" ignored="false" />
+    <file path="/index_list_normal.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374551875510" ignored="false" />
+    <file path="/index_row_extra.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556254093" ignored="false" />
+    <file path="/index_row_normal.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556234260" ignored="false" />
+    <file path="/MangaList.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555824670" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/ChatMessageActivity.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555642207" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/registro.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/registro_main.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/resume.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/splash_screen.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/tabs_activity.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/values/colors.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/values/strings.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/AppTabs.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/calls.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/values-es/strings.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/calls_voice_message.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/chat.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/contactos.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/AndroidManifest.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/RecentCallsActivity.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/login_main.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/main.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/Adaptadores/CallsAdapter.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/Adaptadores/ChatListAdapter.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/profile.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/recent_calls.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/res/layout/recent_calls_row.xml" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643698" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/Authenticator/SignUpActivity.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643952" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/Adaptadores/TestFragment.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643952" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Brounie/iTalkU/italkyou.git/Android/recipe/src/org/brounie/recipe/Authenticator/AuthenticatorActivity.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374555643952" ignored="false" />
+    <file path="/IndexAdapterNormal.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556382046" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/black4world/R.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556120178" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/black4world/Manifest.java" changelist="2313540c-3770-4565-83fa-c03a5625a617" time="1374556120178" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +95,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,7 +107,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -40,6 +116,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -55,6 +132,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -67,100 +145,38 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AnimeReader" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/black4world/Home.java">
+      <file leaf-file-name="IndexAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="8" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.029462738">
+            <state line="31" column="30" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#907#919#0" expanded="true" />
-                <element signature="e#968#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manga_eden_list.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_list.xml">
+      <file leaf-file-name="IndexAdapterExtra.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterExtra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="70" column="48" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.5025773">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FillData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/black4world/Datos/FillData.java">
+      <file leaf-file-name="IndexAdapterNormal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterNormal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MangaEdenAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/MangaEdenAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="43" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manga_eden_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_row.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manga.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/black4world/Basic/Manga.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="26" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="78" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values-es/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="53" column="90" selection-start="1580" selection-end="1655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,30 +192,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/black4world/SplashScreen.java" />
-        <option value="$PROJECT_DIR$/res/layout/home.xml" />
+        <option value="$PROJECT_DIR$/res/values/themes.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/black4world/ConnectionFunctions.java" />
-        <option value="$PROJECT_DIR$/src/com/black4world/JSONParser.java" />
-        <option value="$PROJECT_DIR$/src/com/black4world/Adapters.java" />
-        <option value="$PROJECT_DIR$/src/com/black4world/Datos/FillData.java" />
-        <option value="$PROJECT_DIR$/res/layout/Rows/manga_eden_row.xml" />
-        <option value="$PROJECT_DIR$/src/com/black4world/Basic/Manga.java" />
-        <option value="$PROJECT_DIR$/src/com/black4world/Adapters/MangaEdenAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/manga_eden_row.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/values-es/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout/manga_eden_list.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/index_row.xml" />
         <option value="$PROJECT_DIR$/src/com/black4world/Home.java" />
+        <option value="$PROJECT_DIR$/res/layout/index_list_extra.xml" />
+        <option value="$PROJECT_DIR$/res/layout/index_list_normal.xml" />
+        <option value="$PROJECT_DIR$/res/layout/index_list.xml" />
+        <option value="$PROJECT_DIR$/src/com/black4world/Index.java" />
+        <option value="$PROJECT_DIR$/res/layout/manga_list.xml" />
+        <option value="$PROJECT_DIR$/src/com/black4world/MangaList.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/index_row_normal.xml" />
+        <option value="$PROJECT_DIR$/res/layout/index_row_extra.xml" />
+        <option value="$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterNormal.java" />
+        <option value="$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterExtra.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="786" />
+    <option name="width" value="1280" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -227,6 +241,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -407,23 +445,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnimeReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,22 +478,25 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidTargetDevices" value="LGOTMS821a4089" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\black4ninja\Desktop\MangaReader\AnimeReader\res\values-es" />
       <recent name="C:\Users\black4ninja\Desktop\AnimeReader\src\com\black4world" />
       <recent name="C:\Users\black4ninja\Desktop\AnimeReader\res\values-es" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\black4ninja\Desktop\MangaReader\AnimeReader\res\values" />
       <recent name="C:\Users\black4ninja\Desktop\AnimeReader\res\layout" />
     </key>
   </component>
@@ -457,12 +505,7 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -479,12 +522,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -492,11 +530,20 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
@@ -523,30 +570,7 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
@@ -560,12 +584,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="" />
@@ -585,12 +604,7 @@
       </option>
       <envs />
       <patterns />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -605,12 +619,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="false" name="AnimeReader" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="AnimeReader" />
@@ -625,7 +634,9 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -638,6 +649,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2313540c-3770-4565-83fa-c03a5625a617" name="Default" comment="" />
@@ -647,31 +676,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="786" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="770" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.67536706" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32463294" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21527214" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.6721311" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.227422" sideWeight="0.67536706" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19738989" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290008" sideWeight="0.6709265" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -697,7 +728,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -707,9 +737,11 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -734,83 +766,140 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-16/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="429" column="0" selection-start="20081" selection-end="20081" vertical-scroll-proportion="0.7150838" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="57" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/ConnectionFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="24" selection-start="2155" selection-end="2155" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="15" selection-start="2832" selection-end="2832" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="41" selection-end="53" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/Datos/FillData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/MangaEdenAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="43" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/black4world/Basic/Manga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="26" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="78" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" />
+        <state line="7" column="56" selection-start="416" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="7" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" />
+        <state line="6" column="4" selection-start="180" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-es/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" />
+        <state line="6" column="41" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/black4world/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="8" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.029462738">
+        <state line="95" column="8" selection-start="3273" selection-end="3302" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#907#919#0" expanded="true" />
-            <element signature="e#968#975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/index_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="255" selection-end="255" vertical-scroll-proportion="-1.2">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="438" selection-end="438" vertical-scroll-proportion="-2.18">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/manga_eden_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.6">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/black4world/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="54" selection-start="745" selection-end="872" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/black4world/MangaList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="40" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/index_row_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="353" selection-end="384" vertical-scroll-proportion="-2.1">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/index_row_extra.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="382" selection-end="382" vertical-scroll-proportion="0.32307693">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="30" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterNormal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="90" selection-start="1580" selection-end="1655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/black4world/Adapters/IndexAdapterExtra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="48" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.5025773">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

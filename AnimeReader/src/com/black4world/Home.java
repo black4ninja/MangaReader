@@ -7,9 +7,11 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.widget.GridView;
+import android.widget.ListView;
 import com.black4world.Adapters.MangaEdenAdapter;
 import com.black4world.Basic.Manga;
+import com.parse.Parse;
+import com.parse.ParseAnalytics;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -33,13 +35,15 @@ public class Home extends Activity {
 
     private Vector<JSONObject> bloque =new Vector<JSONObject>();
     private Vector<Manga> mangas = new Vector<Manga>();
-    private GridView listView;
+    private ListView listView;
     private ProgressDialog pd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manga_eden_list);
 
+        Parse.initialize(this, "0RDOHsKDLzVwN0A6mSO1gms4WHU0riyEPN0INnMS", "1n6hv4yHud3EGZWsdkfSfi0KUivH4UZW11JXbSTI");
+        ParseAnalytics.trackAppOpened(getIntent());
         if(isNetworkConnected()){
             pd = ProgressDialog.show(Home.this, getString(R.string.lblLoad) ,getString(R.string.lblLoad),true,false,null);
             try {
@@ -50,11 +54,21 @@ public class Home extends Activity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            /*
+            //Parse
+            for (int i = 0; i <bloque.size() ; i++) {
+                ParseObject manga = new ParseObject("Mangas");
+                manga.put("language", 1337);
+                manga.put("image", "Sean Plott");
+                manga.put("title", false);
+
+            }
+            */
             //MangaConnection task = new MangaConnection();
             //task.execute();
 
 
-            for (int i = 0; i <bloque.size() ; i++) {
+            for (int i = 0; i <2 ; i++) {
                 try {
                     String titulo = bloque.get(i).get("t").toString();
                     if(titulo.length() > 20){
@@ -63,7 +77,7 @@ public class Home extends Activity {
                     Manga temp = new Manga(0,titulo,"","");
 
                     mangas.add(temp);
-
+                    System.out.println("Salida->");
                 } catch (JSONException e) {
                     e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
                 }
@@ -73,7 +87,7 @@ public class Home extends Activity {
 
 
             pd.dismiss();
-            listView = (GridView) findViewById(R.id.listME);
+            listView = (ListView) findViewById(R.id.listME);
             listView.setAdapter(customAdapter);
         }
     }

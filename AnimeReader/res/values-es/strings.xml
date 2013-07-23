@@ -4,6 +4,7 @@
 
     <!--Actividades-->
     <string name="title_activity_home">Principal</string>
+    <string name="title_activity_index">Índice</string>
     <string name="lblLoad">Cargando</string>
     <string name="search_hint_me">Buscar...</string>
 </resources>

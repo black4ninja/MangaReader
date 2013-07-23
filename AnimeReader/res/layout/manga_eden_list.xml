@@ -15,7 +15,7 @@
                     android:text=""
                     />
             </LinearLayout>
-    <GridView android:id="@+id/listME"
+    <ListView android:id="@+id/listME"
               android:numColumns="auto_fit"
               android:gravity="center"
               android:columnWidth="100dp"
