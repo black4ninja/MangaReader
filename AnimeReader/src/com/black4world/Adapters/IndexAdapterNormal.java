@@ -22,6 +22,7 @@ import com.black4world.R;
 public class IndexAdapterNormal extends BaseAdapter {
     private Context context;
     private TextView textView;
+    private LinearLayout ll;
     private String[] indexes = new String[] {
             "#",
             "A", "B", "C", "D", "E",
@@ -51,8 +52,7 @@ public class IndexAdapterNormal extends BaseAdapter {
 
             // set value into textview
             textView = (TextView) gridView.findViewById(R.id.grid_item_label);
-            LinearLayout ll = (LinearLayout) gridView.findViewById(R.id.layout_normal);
-            System.out.println("Salida->"+indexes.length + " " +position);
+            ll = (LinearLayout) gridView.findViewById(R.id.layout_normal);
             textView.setText(indexes[position]);
             val = position;
             if((position % 2) == 0){
@@ -68,10 +68,12 @@ public class IndexAdapterNormal extends BaseAdapter {
             ll.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    View v = ll.getChildAt(0);
+                    TextView temp = (TextView) view.findViewById(R.id.grid_item_label);
                     Intent myIntent = new Intent(context, MangaList.class);
                     //myIntent.putExtra("key", value); //Optional parameters
                     myIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    myIntent.putExtra("LETTER", textView.getText().toString());
+                    myIntent.putExtra("LETTER", temp.getText().toString());
                     context.startActivity(myIntent);
                 }
             });

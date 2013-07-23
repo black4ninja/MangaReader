@@ -53,7 +53,6 @@ public class IndexAdapterExtra extends BaseAdapter {
             // set value into textview
             textView = (TextView) gridView.findViewById(R.id.grid_item_label);
             LinearLayout ll = (LinearLayout) gridView.findViewById(R.id.layout_extra);
-            System.out.println("Salida->"+indexes.length + " " +position);
             textView.setText(indexes[position]);
             val = position;
             if((position % 2) == 0){
