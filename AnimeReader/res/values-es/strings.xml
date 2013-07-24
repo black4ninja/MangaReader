@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AnimeReader</string>
+    <string name="app_name">Manga Reader</string>
 
     <!--Actividades-->
     <string name="title_activity_home">Principal</string>
     <string name="title_activity_index">Índice</string>
+    <string name="title_activity_manga_list">Mangas</string>
+    <string name="lblAuth">Manga Reader</string>
+    <string name="lblSigning">Cargando</string>
     <string name="lblLoad">Cargando</string>
     <string name="search_hint_me">Buscar...</string>
 </resources>

@@ -1,31 +1,12 @@
 package com.black4world;
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.widget.ListView;
 import com.black4world.Adapters.MangaEdenAdapter;
-import com.black4world.Basic.Manga;
-import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
-import com.nostra13.universalimageloader.core.DisplayImageOptions;
-import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
-import com.nostra13.universalimageloader.utils.StorageUtils;
-import com.parse.Parse;
-import com.parse.ParseAnalytics;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.Collections;
-import java.util.Vector;
 
 /**
  * Created with IntelliJ IDEA.
@@ -36,19 +17,21 @@ import java.util.Vector;
  */
 public class Home extends Activity {
 
-    private Vector<JSONObject> bloque =new Vector<JSONObject>();
-    private Vector<Manga> mangas = new Vector<Manga>();
     private ListView listView;
-    private ProgressDialog pd;
     private Context context = this;
-
+    private String info;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manga_eden_list);
 
+        Bundle extras = getIntent().getExtras();
+        if(extras != null) {
+            info = extras.getString("INFO");
+        }
+
         listView = (ListView) findViewById(R.id.listME);
-        listView.setAdapter(new MangaEdenAdapter(context));
+        listView.setAdapter(new MangaEdenAdapter(info,context));
 
     }
 
@@ -62,6 +45,12 @@ public class Home extends Activity {
             return false;
         } else
             return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        return;
     }
 
 }

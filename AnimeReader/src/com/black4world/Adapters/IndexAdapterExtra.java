@@ -31,6 +31,7 @@ public class IndexAdapterExtra extends BaseAdapter {
             "U", "V", "W", "X", "Y", "Z"};
     private int val;
     private TextView textView;
+    private LinearLayout ll;
 
     public IndexAdapterExtra(Context context) {
         this.context = context;
@@ -52,7 +53,7 @@ public class IndexAdapterExtra extends BaseAdapter {
 
             // set value into textview
             textView = (TextView) gridView.findViewById(R.id.grid_item_label);
-            LinearLayout ll = (LinearLayout) gridView.findViewById(R.id.layout_extra);
+            ll = (LinearLayout) gridView.findViewById(R.id.layout_extra);
             textView.setText(indexes[position]);
             val = position;
             if((position % 2) == 0){
@@ -68,10 +69,12 @@ public class IndexAdapterExtra extends BaseAdapter {
             ll.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    View v = ll.getChildAt(0);
+                    TextView temp = (TextView) view.findViewById(R.id.grid_item_label);
                     Intent myIntent = new Intent(context, MangaList.class);
                     //myIntent.putExtra("key", value); //Optional parameters
                     myIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    myIntent.putExtra("LETTER", textView.getText().toString());
+                    myIntent.putExtra("LETTER", temp.getText().toString());
                     context.startActivity(myIntent);
                 }
             });
