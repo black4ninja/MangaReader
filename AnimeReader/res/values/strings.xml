@@ -10,4 +10,6 @@
     <string name="lblSigning">Loading</string>
     <string name="lblLoad">Loading</string>
     <string name="search_hint_me">Search...</string>
+
+    <string name="crouton_msg">No Internet Connection!</string>
 </resources>

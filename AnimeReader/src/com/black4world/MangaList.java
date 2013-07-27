@@ -5,9 +5,13 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 import com.black4world.Adapters.MangaEdenAdapter;
 import com.parse.*;
+import de.keyboardsurfer.android.widget.crouton.Configuration;
+import de.keyboardsurfer.android.widget.crouton.Crouton;
+import de.keyboardsurfer.android.widget.crouton.Style;
 
 import java.io.*;
 import java.util.List;
@@ -26,6 +30,11 @@ public class MangaList extends Activity {
     private String info;
     private String response;
     private ProgressDialog pd;
+    private static final Configuration CONFIGURATION_INFINITE = new Configuration.Builder()
+            .setDuration(Configuration.DURATION_INFINITE)
+            .build();
+    private static final Style INFINITE = new Style.Builder().
+            setBackgroundColorValue(Style.holoBlueLight).build();
 
     @Override
     public void onCreate(Bundle icicle){
@@ -115,12 +124,35 @@ public class MangaList extends Activity {
                                 } else {
                                     response = "Error";
                                     pd.dismiss();
+                                    final Crouton c;
+                                    boolean infinite = INFINITE == INFINITE;
+                                    View view = getLayoutInflater().inflate(R.layout.crouton_custom_view, null);
+                                    c = Crouton.make(MangaList.this, view);
+                                    c.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View view) {
+                                            Crouton.hide(c);
+                                            finish();
+                                        }
+                                    }).setConfiguration(infinite ? CONFIGURATION_INFINITE : Configuration.DEFAULT).show();
+
                                 }
                             }
                         });
                     } else {
                         response = "Error";
                         pd.dismiss();
+                        final Crouton c;
+                        boolean infinite = INFINITE == INFINITE;
+                        View view = getLayoutInflater().inflate(R.layout.crouton_custom_view, null);
+                        c = Crouton.make(MangaList.this, view);
+                        c.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Crouton.hide(c);
+                                finish();
+                            }
+                        }).setConfiguration(infinite ? CONFIGURATION_INFINITE : Configuration.DEFAULT).show();
                     }
                 }
             });
@@ -133,5 +165,11 @@ public class MangaList extends Activity {
         protected void onPostExecute(String result){
             //pd.dismiss();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        return;
     }
 }
